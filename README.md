@@ -6,4 +6,5 @@ Kill a locked process
 `kill -9 <PID>`
 
 Uninstall all pip packages
-`pip list --format=freeze |xargs pip uninstall -y`
+`pip freeze > requirements.txt
+pip uninstall -r requirements.txt -y`
