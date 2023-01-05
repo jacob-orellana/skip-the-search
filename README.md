@@ -12,3 +12,8 @@ Uninstall all pip packages
 pip freeze > requirements.txt
 pip uninstall -r requirements.txt -y
 ```
+
+Search for a string in home directory (Mac)
+```
+grep -nrI "in_alert_state" . --exclude-dir=Library
+```
