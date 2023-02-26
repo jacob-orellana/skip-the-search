@@ -17,3 +17,13 @@ Search for a string in home directory (Mac)
 ```
 grep -nrI "string to search" . --exclude-dir=Library
 ```
+
+Delete branch locally
+```
+git branch -d localBranchName
+```
+
+Delete branch remotely
+```
+git push origin --delete remoteBranchName
+```
