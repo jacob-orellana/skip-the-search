@@ -23,7 +23,13 @@ Delete branch locally
 git branch -d localBranchName
 ```
 
+List remote branches
+```
+git branch -r
+```
+
 Delete branch remotely
 ```
+git fetch --prune
 git push origin --delete remoteBranchName
 ```
