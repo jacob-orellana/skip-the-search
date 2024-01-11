@@ -33,3 +33,8 @@ Delete branch remotely
 git fetch --prune
 git push origin --delete remoteBranchName
 ```
+
+Transfer a file over ssh using scp
+```
+scp -i permissionfile examplefile yourusername@remoteserver:/home/yourusername/
+```
