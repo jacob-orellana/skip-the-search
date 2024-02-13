@@ -34,7 +34,7 @@ git fetch --prune
 git push origin --delete remoteBranchName
 ```
 
-Transfer a file over ssh using scp
+[Transfer a file over ssh using scp](https://unix.stackexchange.com/a/188289)
 ```
 scp -i permissionfile examplefile yourusername@remoteserver:/home/yourusername/
 ```
