@@ -38,3 +38,8 @@ Transfer a file over ssh using scp
 ```
 scp -i permissionfile examplefile yourusername@remoteserver:/home/yourusername/
 ```
+
+Getting list of startup applications in Linux
+```
+ls /etc/init.d
+```
