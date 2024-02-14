@@ -43,3 +43,8 @@ Getting list of startup applications in Linux
 ```
 ls /etc/init.d
 ```
+
+View program taking up a specific port
+```
+lsof -i :8000
+```
