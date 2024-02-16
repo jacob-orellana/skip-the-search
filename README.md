@@ -48,3 +48,9 @@ View program taking up a specific port
 ```
 lsof -i :8000
 ```
+
+Change a user’s password via SQL
+```
+ALTER USER 'superuser'@'localhost' IDENTIFIED BY 'password'
+FLUSH PRIVILEGES;
+```
