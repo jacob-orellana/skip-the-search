@@ -36,7 +36,7 @@ git push origin --delete remoteBranchName
 
 Remove the previously tracked files from the Git index/cache according to `.gitignore`.
 ```
-git rm --cached $(git ls-files  --exclude-from=.gitignore)
+git rm --cached $(git ls-files --exclude-from=.gitignore)
 ```
 
 [Transfer a file over ssh using scp](https://unix.stackexchange.com/a/188289)
