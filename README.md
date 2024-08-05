@@ -36,6 +36,17 @@ git fetch --prune
 git push origin --delete remoteBranchName
 ```
 
+Transfer repository from Bitbucket to Github
+```
+cd repo-directory
+git remote rename origin bitbucket
+git remote add origin https://github.com/username/new-repo.git
+git branch -M main
+git push -u origin main (might be able to remove this)
+git push origin --all
+git remote rm bitbucket
+```
+
 Remove the previously tracked files from the Git index/cache according to `.gitignore`.
 ```
 git rm --cached $(git ls-files --exclude-from=.gitignore)
