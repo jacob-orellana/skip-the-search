@@ -11,6 +11,8 @@ Uninstall all pip packages
 ```
 pip freeze > requirements.txt
 pip uninstall -r requirements.txt -y
+or
+pip freeze | xargs pip uninstall -y
 ```
 
 Search for a string in home directory (Mac)
