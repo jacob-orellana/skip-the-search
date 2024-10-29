@@ -15,6 +15,12 @@ or
 pip freeze | xargs pip uninstall -y
 ```
 
+Search for a file in home directory (Mac)
+```
+find / -name "my_file.txt" 2>/dev/null
+```
+
+
 Search for a string in home directory (Mac)
 ```
 grep -nrI "string to search" . --exclude-dir=Library
