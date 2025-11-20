@@ -77,3 +77,8 @@ Change a user’s password via SQL
 ALTER USER 'superuser'@'localhost' IDENTIFIED BY 'password'
 FLUSH PRIVILEGES;
 ```
+
+Get sizes for a specific directory
+```
+sudo du -h --max-depth=1 /path/to/directory
+```
