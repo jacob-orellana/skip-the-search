@@ -1,6 +1,3 @@
-# Skip The Search
-## Useful commands, shortcuts, and alias to help speed up the dev process
-
 Kill a locked process
 ```
 sudo lsof -i :3000
@@ -52,7 +49,7 @@ git push -u origin --all
 git remote rm bitbucket
 ```
 
-Remove the previously tracked files from the Git index/cache according to `.gitignore`.
+Untracks files listed in .gitignore — removes from index only, history unaffected
 ```
 git rm --cached $(git ls-files --exclude-from=.gitignore)
 ```
