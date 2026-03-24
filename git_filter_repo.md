@@ -1,5 +1,5 @@
 Install if needed:  
-FYI git filter-repo **removes the remote on purpose**  
+⚠️ FYI git filter-repo ***removes the remote on purpose***  
 it's a safety feature to stop you from accidentally force pushing rewritten history.  
 ```
 pip install git-filter-repo 
